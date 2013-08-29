@@ -1,0 +1,29 @@
+/**
+ *
+ * Plugin
+ *
+ */
+input[name="github-user"],
+input[name="github-repository"] {
+	transition: all .2s;
+}
+
+
+
+/**
+ *
+ * Plugin Preview
+ *
+ */
+.readme-preview {
+	background: #fff;
+	border: 1px solid #ccc;
+	height: 200px;
+	overflow: auto;
+	padding: 20px;
+	resize: vertical;
+}
+
+#plugin-preview img {
+	max-width: 100%
+}
